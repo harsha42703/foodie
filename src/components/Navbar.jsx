@@ -26,7 +26,7 @@ function Navbar() {
 
   return (
     <div>
-    <div className="bg-gray-900 text-white fixed top-0 left-0 right-0 z-10 pt-2 pb-2 mb-40">
+    <div className="bg-black text-white fixed top-0 left-0 right-0 z-10 pt-2 pb-2 mb-40">
       <div className="container ml-1 mr-1 p-2">
         <div className="flex flex-col gap-1 lg:flex lg:justify-between lg:flex-row">
           <div 
