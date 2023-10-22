@@ -18,27 +18,27 @@ function Footer() {
             </p>
             <div className="flex justify-between md:w-[75%] my-6">
               <a href="https://api.whatsapp.com/send?phone=918008858347"
-              target="_blank">
+              target="_blank" rel="noreferrer">
                 {" "}
                 <FaWhatsapp
                   size={30}
                   className="hover:scale-110 duration-300 hover:text-orange-500"
                 />{" "}
               </a>
-              <a href="https://instagram.com/harsha_______18?igshid=MzMyNGUyNmU2YQ==" target="_blank">
+              <a href="https://instagram.com/harsha_______18?igshid=MzMyNGUyNmU2YQ==" target="_blank" rel="noreferrer">
                 {" "}
                 <FaInstagram
                   size={30}
                   className="hover:scale-110 duration-300 hover:text-orange-500"
                 />{" "}
               </a>
-              <a href="mailto:majjisaiharshavardhan@gmail.com" target="_blank">
+              <a href="mailto:majjisaiharshavardhan@gmail.com" target="_blank" rel="noreferrer">
                 <FiMail
                   size={30}
                   className="hover:scale-110 duration-300 hover:text-orange-500"
                 />
               </a>
-              <a href="http://linkedin.com/in/harsha-vardhan-majji-45b51b230" target="_blank">
+              <a href="http://linkedin.com/in/harsha-vardhan-majji-45b51b230" target="_blank" rel="noreferrer">
                 <FaLinkedin
                   size={30}
                   className="hover:scale-110 duration-300 hover:text-orange-500"
