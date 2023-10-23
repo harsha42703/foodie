@@ -10,7 +10,7 @@ import { MdOutlineRestaurantMenu, MdCategory } from "react-icons/md";
 import { Link } from "react-router-dom";
 import CartContext from "../CartContext";
 import { useNavigate } from "react-router-dom";
-import logo from "../assets/foodie.jpg";
+import logo from "../assets/foodielogo.jpg";
 import logo1 from "../assets/foodie-1.jpg"
 
 function Navbar() {
