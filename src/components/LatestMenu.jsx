@@ -6,8 +6,8 @@ import {Link} from 'react-router-dom'
 
 function LatestMenu() {
   return (
-    <div className="container vs:mt-40 sm:mt-28 sm:pt-10 md:pt-2 md:mt-28 lg:mt-28 mt-auto p-5 relative ">
-    <div className="sm:px-6 lg:mx-5 lg:mt-6">
+    <div className="container vs:mt-32 mt-auto p-5 relative mx-auto">
+    <div className="sm:px-6 lg:mx-5 lg:mt-6 px-6">
       <div className="flex justify-between items-center">
       <h1 className="font-bold text-2xl lg:text-3xl text-left">
           Latest <span className="text-orange-500">Menu</span>
@@ -20,8 +20,8 @@ function LatestMenu() {
           </Link>
       </div>
       <hr className="my-6 border-orange-500"></hr>
-      <div className="bg-orange-100 rounded-lg p-2 lg:p-0">
-      <div className="grid grid-cols sm:ml-12 md:grid-cols-2 lg:grid-cols-4 lg:m-5 lg:p-8 gap-3 bg-orange-100 rounded-2xl">
+      <div className="flex items-center bg-orange-100 rounded-lg p-2 lg:p-0">
+      <div className="grid grid-cols sm:ml-2 md:grid-cols-2 lg:grid-cols-4 lg:m-5 lg:p-8 gap-4 bg-orange-100 rounded-2xl">
         {food.slice(-4).map((item, index) => (
           <FoodCard key={index} item={item} />
         ))}

@@ -46,7 +46,7 @@ function Navbar() {
             </div> 
             <form
               onSubmit={goToSearchPage}
-              className="vs:w-[260px] bg-orange-500 rounded-full flex items-center pl-3 pr-0.5 lg:mr-4 "
+              className="vs:w-[260px] bg-orange-500 rounded-full flex items-center pl-3 pr-0.5 lg:mr-4"
             >
               <AiOutlineSearch size={25} />
               <input
@@ -62,7 +62,7 @@ function Navbar() {
               className="bg-orange-300 hover:bg-orange-500 px-4 py-2 hover:shadow-md rounded-s-full flex justify-between items-center gap-3 cursor-pointer hover:translate-x-4 transition duration-400"
             >
               <div className="flex justify-center items-center text-xl text-white">
-                <FaShoppingCart size={25} className="mr-4 " /> Cart
+                <FaShoppingCart size={25} className="mr-4" /> Cart
                 <div className="w-6 h-6 rounded-full flex items-center justify-center">
                   <span className="text-xl font-bold ml-4 text-white">
                     {items.length > 0 ? items.length : ""}
@@ -84,7 +84,7 @@ function Navbar() {
           <AiOutlineClose
             onClick={() => setNav(!nav)}
             size={30}
-            className="absolute right-4 top-4 cursor-pointer text-white pr-3"
+            className="absolute right-4 top-4 cursor-pointer text-orange-500 hover:translate-x--6 pr-3 transition duration-400"
           />
           <div className="flex items-center flex-row p-5 gap-1">
             <img
@@ -121,7 +121,7 @@ function Navbar() {
                   className="text-xl py-2 px-4 flex cursor-pointer hover:bg-orange-500 hover:rounded-s-full"
                 >
                   <div className="flex justify-between items-center text-white">
-                    <MdCategory size={25} className="text-white mr-4" /> Categories
+                    <MdCategory size={25} className="font-poppins text-white mr-4" /> Categories
                   </div>
                 </li>
               </Link>

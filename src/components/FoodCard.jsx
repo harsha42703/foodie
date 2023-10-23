@@ -23,12 +23,12 @@ const FoodCard = ({ item }) => {
     navigate(`/menu/${item.id}`);
   };
   return (
-    <div onClick={handleFoodClick} className="flex-row cursor-pointer backdrop-blur-sm rounded-2xl lg:h-[400px] lg:w-[200px] sm:w-[200px] sm:h-[400px] shadow-orange-200 hover:scale-105 shadow-2xl duration-500 shadow-full">
+    <div onClick={handleFoodClick} className="flex-row cursor-pointer backdrop-blur-sm rounded-2xl  shadow-orange-200 hover:scale-105 shadow-2xl duration-500 shadow-full">
       <div className="">
         <img
           src={item.image}
           alt={item.name}
-          className="w-[200px] vs:w-[230px] p-2 h-[200px] object-fit rounded-2xl md:w-[290px] sm:w-[200px] sm:h-[250px] hover:scale-130 hover:shadow-2xl hover:shadow-orange-200"
+          className="rounded-2xl h-[270px] p-2 hover:scale-130 hover:shadow-2xl hover:shadow-orange-200 w-full object-cover"
         />
       </div>
       <div className="flex px-3 pb-5 pt-2 flex-col gap-2 items-start">
